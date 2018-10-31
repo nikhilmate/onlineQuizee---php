@@ -1,0 +1,120 @@
+html {
+	box-sizing: border-box;
+}
+8, *::after, *::before {
+	box-sizing: inherit;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: "muli-regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.875;
+  font-weight: 300;
+}
+.error {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+.error h2 {
+	color: tomato;
+	font-size: 24px;
+	font-weight: 500;
+	width: fit-content;
+	height: fit-content;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+}
+.header h2 {
+	font-size: 24px;
+	padding: 0;
+	margin: -5px;
+}
+.logo {
+	width: fit-content;
+	height: fit-content;
+	margin: -20px;
+}
+.logo img {
+	transform: scale(0.8);
+}
+.inner-container{
+  position: absolute;
+  top: 250px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  position:relative;
+  height:100%;
+  width:400px;
+  font-family:Helvetica;
+  color:black;
+  background: #efc600;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.box input.input-form{
+  display:block;
+  width:97%;
+  margin:20px auto;
+  padding:12px;
+  padding-right: 0; 
+  background:white;
+  color:black;
+  border: 0;
+  transition: all .5s ease-out;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.box select.input-select{
+  display:block;
+  width:100%;
+  margin:20px auto;
+  padding:12px;
+  background:white;
+  color:black;
+  border: 0;
+  transition: all .5s ease-out;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.box select option{
+  color:black;
+}
+.box input.submit-button{
+  background:transparent;
+  border: 2px solid white;
+  color:black;
+  font-size:16px;
+  width:100%;
+  margin:20px auto;
+  padding: 10px;
+  display:block;
+  cursor:pointer;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.box input.submit-button:active{
+  background:white;
+}
+.box input.submit-button:hover {
+  background:white;
+  color: black;
+}
+
+

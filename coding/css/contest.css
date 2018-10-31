@@ -1,0 +1,46 @@
+.logout {
+	top: 0;
+	right: 50px;
+	margin:auto;
+	position: fixed;
+	z-index: 999;
+}
+.logout input {
+	padding:10px 20px;
+	background: lightgreen;
+	border-radius: 3px;
+	border : none;
+	font-size: 20px;
+	color: white;
+	border: 1px solid green;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+.instructions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Ilayout {
+	width: 400px;
+	word-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: lightgrey;
+	height: fit-content;
+	padding: 50px;
+	margin-top: 100px;
+}
+.start {
+	padding:10px 20px;
+	background: lightgreen;
+	border-radius: 3px;
+	border : none;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid green;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}

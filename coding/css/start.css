@@ -1,0 +1,96 @@
+/* Tab panel */
+#statement {
+  overflow: hidden;
+}
+.row {
+    width: 94%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.statement-intro {
+  background: lightgrey;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    transition: all .3s ease-in-out; 
+}
+#statement ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#statement ul li {
+  position: relative;
+  display: inline-flex;
+}		
+#statement ul li a {
+  padding: 6px 25px;
+  display: inline-block;
+  line-height: 1.42857143;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  border: 2px solid transparent;
+}
+#statement ul li.active a, #park ul li a:hover {
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 2px solid white;
+}
+.tab-content{
+  margin-top: 30px;
+}
+.tab-content .tab-pane{
+  display: none;
+}
+.tab-content .active{
+  display: block;
+}
+.flexing {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 460px) {
+  .statement-intro {
+    padding: 10px 10px;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.logout {
+  top: 0;
+  right: 50px;
+  margin:auto;
+  position: fixed;
+  z-index: 999;
+}
+.logout input {
+  padding:10px 20px;
+  background: lightgreen;
+  border-radius: 3px;
+  border : none;
+  font-size: 20px;
+  color: white;
+  border: 1px solid green;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+.statement {
+  height: fit-content;
+  padding: 50px;
+  padding-top: 20px;
+}
+.statement p {
+  word-wrap: break-word;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
